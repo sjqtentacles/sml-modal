@@ -1,0 +1,6 @@
+(* Source files for the sml-logic library, in dependency order. *)
+
+$(SML_LIB)/basis/basis.mlb
+
+logic.sig
+logic.sml

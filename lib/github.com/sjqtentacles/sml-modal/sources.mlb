@@ -1,0 +1,11 @@
+(* Source files for the sml-modal library, in dependency order.
+
+   sml-logic is vendored but the modal formula type is self-contained; we keep
+   the dependency available for shared pretty-printing conventions and reuse. *)
+
+$(SML_LIB)/basis/basis.mlb
+
+../sml-logic/sources.mlb
+
+modal.sig
+modal.sml
